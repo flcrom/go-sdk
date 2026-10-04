@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.20.0](https://github.com/open-feature/go-sdk/compare/v1.19.0...v1.20.0) (2026-10-04)
+
+
+### 🐛 Bug Fixes
+
+* **multi:** map FLAG_NOT_FOUND and TARGETING_KEY_MISSING to ErrorReason ([#593](https://github.com/open-feature/go-sdk/issues/593)) ([5cc3ba2](https://github.com/open-feature/go-sdk/commit/5cc3ba2cd123825efa196e0b5aa0b71282625790))
+* run PROVIDER_ERROR handlers on registration when the provider is FATAL ([#600](https://github.com/open-feature/go-sdk/issues/600)) ([3c2b77b](https://github.com/open-feature/go-sdk/commit/3c2b77ba66520b80b11d00380a5d2a3e68a74bfb)), closes [#559](https://github.com/open-feature/go-sdk/issues/559)
+
+
+### ✨ New Features
+
+* support updating the in-memory provider's flag set ([#539](https://github.com/open-feature/go-sdk/issues/539)) ([3c83cde](https://github.com/open-feature/go-sdk/commit/3c83cdeaccbe319858c4a938e2e699ddcd8769f9))
+
+
+### 🧹 Chore
+
+* standardize/update release please config ([#602](https://github.com/open-feature/go-sdk/issues/602)) ([2560258](https://github.com/open-feature/go-sdk/commit/256025846ea79ebea745bb6577234bab25d0d53e))
+
 ## [1.19.0](https://github.com/open-feature/go-sdk/compare/v1.18.0...v1.19.0) (2026-09-23)
 
 
